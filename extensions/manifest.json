@@ -1,0 +1,9 @@
+{
+    "manifest_version" : 3,
+    "name" : "Smart Email Summarizer",
+    "version" : "1.0",
+    "description" : "A smart email summarizing assistant",
+    "action" : {
+        "default_popup" : "popup.html"
+    }
+}
