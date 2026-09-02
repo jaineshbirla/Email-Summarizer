@@ -33,6 +33,10 @@ class Summarizer():
             chunks.append(self.tokenizer.decode(piece_ids, skip_special_tokens = True))
         return chunks
     
+
+    def summarize_text(self,text : str, max_length : int, min_length : int ) -> str:
+        pass
+    
     
     
 
